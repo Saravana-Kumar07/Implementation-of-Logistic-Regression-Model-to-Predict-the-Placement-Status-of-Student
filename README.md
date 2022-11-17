@@ -21,13 +21,16 @@ Predict the values of array.
 ### Step6:
 Calculate the accuracy, confusion and classification report by importing the required modules from sklearn.
 ### Step7:
-Apply new unknown values
+Apply new unknown values.
 # Program:
-```
+
 /*
 Program to implement the the Logistic Regression Model to Predict the Placement Status of Student.
+
 Developed by: Saravana Kumar S
+
 RegisterNumber: 212221230088
+
 */
 ```
 import pandas as pd
@@ -83,10 +86,6 @@ print(classification_report1)
 
 lr.predict([[1,80,1,90,1,1,90,1,0,85,1,85]])
 ```
-```
-
-
-
 # Output:
 
 ## Original data(first five columns):
